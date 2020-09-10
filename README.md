@@ -29,6 +29,23 @@ Sumário:
 
 # Entrega 1
 
+__Tema__: Sistema de gerenciamento de dados para auxilio em sistema hospitalar
+
+__Sistema Operacional__: Ubuntu
+
+- Paralelo;
+- Monousuario e multiusuario;
+- Multitarefa; 
+- Multiprocessado;
+- Opera em lotes (batch).
+
+__Hardware__: 
+
+- Desktop AMD Ryzen 5 3400g 
+- Colorful B550m Gaming Pro 
+- 16 gb RAM DDR4 
+- 1Tb Hard Disk 
+- 500wats de potência
 
 # Entrega 2
 
