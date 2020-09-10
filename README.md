@@ -8,7 +8,7 @@ Sumário:
 - [Grupo](#grupo)
 - [Desenvolvimento](#desenvolvimento)
 - [Entrega 1](#entrega-1)
-- [Entrega 1](#entrega-1)
+- [Entrega 2](#entrega-2)
 
 # Grupo
 
