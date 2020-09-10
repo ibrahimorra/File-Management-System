@@ -29,7 +29,7 @@ Sumário:
 
 # Entrega 1
 
-__Tema__: Sistema de gerenciamento de dados para auxilio em sistema hospitalar
+__Tema__: Sistema de gerenciamento de dados para auxilio em ambiente hospitalar
 
 __Sistema Operacional__: Ubuntu
 
