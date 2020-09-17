@@ -37,7 +37,7 @@ https://www.notion.so/Projeto-de-SO-b13890863847466e944f07cd94aa6080
 
 # Entrega 1
 
-__Tema__: Sistema de gerenciamento de dados para auxilio em ambiente hospitalar
+__Tema__: Sistema de gerenciamento de arquivos
 
 __Sistema Operacional__: Ubuntu
 
