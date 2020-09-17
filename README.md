@@ -9,6 +9,9 @@ Sumário:
 - [Desenvolvimento](#desenvolvimento)
 - [Entrega 1](#entrega-1)
 - [Entrega 2](#entrega-2)
+- [Entrega 3](#entrega-3)
+- [Entrega 4](#entrega-4)
+- [Entrega 5](#entrega-5)
 
 # Grupo
 
@@ -21,11 +24,16 @@ Sumário:
 
 # Desenvolvimento
 
+Entregas realizadas:
+
 - [x] Entrega 1
 - [ ] Entrega 2 - falta thread e escalonamento
 - [x] Entrega 3
 - [x] Entrega 4
 - [ ] Entrega 5
+
+Organização detalhada dos processos realizados:
+https://www.notion.so/Projeto-de-SO-b13890863847466e944f07cd94aa6080
 
 # Entrega 1
 
@@ -95,3 +103,16 @@ No nosso projeto aplicaremos estes conhecimentos da seguinte forma:
 1. Todo código que estiver rodando será um processo, independente de sua funcionalidade.
 2. Threads serão utilizadas para gerenciar tarefas em plano de fundo enquanto o usuário permanece podendo utilizar a interface.
 3. Não faremos uso direto de Escalonamento de processo, uma vez que o sistema operacional cumprirá todas as necessidades sob este aspecto.
+
+# Entrega 3
+
+Scripts serão aplicados para interagir com os códigos feitos em outras linguagens. Como exemplo, nosso grupo desenvolveu um script de instalação, o qual realiza tarefas como:
+
+- Compilação dos codigos que estiverem na pasta src;
+- Organização dos executaveis em uma pasta criada com o nome de "obj";
+- Criação da estrutura de pastas na qual o usuário ira interagir;
+- ...
+
+# Entrega 4
+
+A manipulação do sistema de arquivos foi realizada dentro do script de instalação, verificando a existencia, criando, removendo e aninhando pastas umas dentro de outras.
