@@ -22,9 +22,9 @@ Sumário:
 # Desenvolvimento
 
 - [x] Entrega 1
-- [x] Entrega 2
-- [ ] Entrega 3
-- [ ] Entrega 4
+- [ ] Entrega 2 - falta thread e escalonamento
+- [x] Entrega 3
+- [x] Entrega 4
 - [ ] Entrega 5
 
 # Entrega 1
