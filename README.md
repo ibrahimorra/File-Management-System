@@ -39,6 +39,15 @@ https://www.notion.so/Projeto-de-SO-b13890863847466e944f07cd94aa6080
 
 __Tema__: Sistema de gerenciamento de arquivos
 
+__Área do conhecimento__: Nosso grupo propõe a criação de uma aplicação desktop para auxiliar usuários linux a fazer gestão de arquivos, tornando o uso e organização diária de algumas tarefas mais agil. 
+
+Entre esta tarefas, pretendemos implementar:
+
+- Um instalador para facilitar a geração dos executaveis e criação da estrutura na qual o nosso sistema irá interagir;
+- Uma agenda para shell, na qual o usuário pode gerenciar e salvar seus contatos;
+- Um sistema de backup agendado, no qual o usuário pode inserir uma data para o backup e as pastas que deseja salvar;
+- Um sistema de organização de imagens auto-organizado, capaz de gerar uma arvore de diretórios e organizar estas imagens segundo a data de geração.
+
 __Sistema Operacional__: Ubuntu
 
 - Paralelo;
