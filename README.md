@@ -37,7 +37,7 @@ https://www.notion.so/Projeto-de-SO-b13890863847466e944f07cd94aa6080
 
 # Entrega 1
 
-__Tema__: Sistema de gerenciamento de arquivos
+__Tema__: Sistema de gerenciamento de arquivos para telemedicina
 
 __Área do conhecimento__: Nosso grupo propõe a criação de uma aplicação desktop para auxiliar usuários linux a fazer gestão de arquivos, tornando o uso e organização diária de algumas tarefas mais agil. 
 
@@ -56,6 +56,10 @@ __Sistema Operacional__: Ubuntu
 - Multiprocessado;
 - Opera em lotes (batch).
 
+Porque escolhemos o sistema operacional Ubuntu:
+
+- É open-source e pode ser rodado nos desktops, ou até mesmo na nuvem, estamos estudando na disciplina de sistemas operacionais, que pode facilitar o desenvolvimento do projeto e nas aplicações dos comandos e conceitos vistos em aula.
+
 __Hardware__: 
 
 - Desktop AMD Ryzen 5 3400g 
@@ -68,7 +72,7 @@ __Hardware__:
 
 * _Processo_:
 
-Um processo pode ser qualquer programa em execução. Uma entidade ativa que carrega atributos como memoria, estado do hardware e um id chamado de PID.
+Um processo pode ser qualquer programa em execução que utilizam um certo espaço de memória em que possam ser executados. Uma entidade ativa que carrega atributos como memoria, estado do hardware e um id chamado de PID (Process IDentification), o UID (User IDentification) e também um GID (Group IDentification).
 Processos possuem estados, os quais são:
 
 __NEW__ - Está em estado de criação;
@@ -81,9 +85,11 @@ __WAITING__ - Em aguardo por um evento, como por exemplo uma entrada/saída de d
 
 __TERMINATED__ - Sua execução foi finalizada;
 
+
+
 * _Thread_:
 
-threads são fluxos que ocorrem em paralelo dentro de um mesmo processo, cada uma possuindo seu próprio pc (Program Counter) para gerenciar quais instruções devem ser executadas a seguir. Assim como memoria para armazenamento de variáveis e uma pilha de execução para o histórico de execução.
+Threads são fluxos que ocorrem em paralelo dentro de um mesmo processo, cada uma possuindo seu próprio pc (Program Counter) para gerenciar quais instruções devem ser executadas a seguir. Assim como memoria para armazenamento de variáveis e uma pilha de execução para o histórico de execução.
 
 * _Escalonamento de processo_:
 
