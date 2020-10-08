@@ -131,3 +131,25 @@ Scripts serão aplicados para interagir com os códigos feitos em outras linguag
 # Entrega 4
 
 A manipulação do sistema de arquivos foi realizada dentro do script de instalação, verificando a existencia, criando, removendo e aninhando pastas umas dentro de outras.
+
+
+# Entrega 5
+
+Questões para a quinta entrega:
+Quantas partições na aplicação que estamos desenvolvendo?
+Estamos utilizando uma única partição para desenvolvermos a aplicação dentro do sistema operacional Ubuntu.
+
+Qual espaço da aplicação?
+O espaço da aplicação é de 16KB, no entanto, na hora da criação da árvore de diretórios e na incrementação de usuários o espaço pode aumentar.
+
+Qual tecnologia da partição que voce gostaria de utilizar?
+UFS - Unix File System
+Esse sistema de arquivos é mais conhecido por utilizar a estrutura de arquivos hierárquica, como uma árvore usada na organização dos arquivos e diretórios, dividido nos seguintes blocos:
+- Boot blocks: Contém informação que são iniciados separadamento do sistema de arquivos
+- Super block: Contém informação necessária sobre o sistema de arquivos
+- Cylinder groups: Tem a função de agirem como uma partição ou mini-partição.
+
+
+Se a aplicação precisa de outra partição com outro ambiente operacional ou vai ficar tudo na mesma plataforma?
+A aplicação utilizará apenas uma única partição, no ambiente operacional Ubuntu, portanto, vai ficar tudo na mesma plataforma.
+
