@@ -27,17 +27,17 @@ Sumário:
 Entregas realizadas:
 
 - [x] Entrega 1
-- [ ] Entrega 2 - falta thread e escalonamento
+- [x] Entrega 2
 - [x] Entrega 3
 - [x] Entrega 4
-- [ ] Entrega 5
+- [x] Entrega 5
 
 Organização detalhada dos processos realizados:
 https://www.notion.so/Projeto-de-SO-b13890863847466e944f07cd94aa6080
 
 # Entrega 1
 
-__Tema__: Sistema de gerenciamento de arquivos para telemedicina
+__Tema__: Sistema de gerenciamento de arquivos
 
 __Área do conhecimento__: Nosso grupo propõe a criação de uma aplicação desktop para auxiliar usuários linux a fazer gestão de arquivos, tornando o uso e organização diária de algumas tarefas mais agil. 
 
@@ -89,7 +89,9 @@ __TERMINATED__ - Sua execução foi finalizada;
 
 * _Thread_:
 
-Threads são fluxos que ocorrem em paralelo dentro de um mesmo processo, cada uma possuindo seu próprio pc (Program Counter) para gerenciar quais instruções devem ser executadas a seguir. Assim como memoria para armazenamento de variáveis e uma pilha de execução para o histórico de execução.
+Threads são fluxos que ocorrem em paralelo dentro de um mesmo processo, cada uma possuindo seu próprio pc (Program Counter) para gerenciar quais instruções devem ser executadas a seguir. Assim como memoria para armazenamento de variáveis e uma pilha de execução para o histórico de execução. Apesar de cada thread possuir seus proprios recursos, ela é iniciada com uma cópia de seu pai.
+
+No nosso projeto, threads foram implementadas para fazer com que em paralelo a agenda, novo terminal seja aberto e a lista de contatos seja exibida. O código para tal pode ser encontrado em arquivo.c, na função nomeada "mostrar_agenda", aproximadamente linha 106.
 
 * _Escalonamento de processo_:
 
@@ -121,16 +123,20 @@ No nosso projeto aplicaremos estes conhecimentos da seguinte forma:
 
 # Entrega 3
 
-Scripts serão aplicados para interagir com os códigos feitos em outras linguagens. Como exemplo, nosso grupo desenvolveu um script de instalação, o qual realiza tarefas como:
+Scripts são conjuntos de comandos que serão interpretados e utilizado para a realizaço de tarefas. No caso do linux, utilizamos o bash como interpretador shell.
 
-- Compilação dos codigos que estiverem na pasta src;
+No nosso projeto, scripts serão aplicados para interagir com o âmbiente do usuário, preparando esta para o uso do programa. Ou seja, compilando e movendo arquivos, gerando estruturas de pastas, etc. Em mais detalhes, alguns exemplos ja implementados são:
+
+- Compilação de todos os códigos de linguagem C que estiverem na pasta src, independente do nome;
 - Organização dos executaveis em uma pasta criada com o nome de "obj";
 - Criação da estrutura de pastas na qual o usuário ira interagir;
 - ...
 
+Dentro do script, utilizamos técnicas aprendidas em aula, como loops (para varrer multiplos arquivos e executar o comando de compilação para cada um deles), criação de pastas, movimentação de arquivos, "echos" para interagir com o terminal indicando mensagens relevantes do processo, variáveis que auxiliam ma gestão e dinamismo do cdigo, etc.
+
 # Entrega 4
 
-A manipulação do sistema de arquivos foi realizada dentro do script de instalação, verificando a existencia, criando, removendo e aninhando pastas umas dentro de outras.
+A principal manipulação do sistema de arquivos foi realizada dentro do script de instalação, verificando a existencia, criando, removendo e aninhando pastas umas dentro de outras.
 
 
 # Entrega 5
