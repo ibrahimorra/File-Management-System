@@ -153,8 +153,8 @@ O espaço da aplicação é de 16KB, no entanto, na hora da criação da árvore
 - UFS - Unix File System
 
 Esse sistema de arquivos é mais conhecido por utilizar a estrutura de arquivos hierárquica, como uma árvore usada na organização dos arquivos e diretórios, dividido nos seguintes blocos abaixo.
-	- Boot blocks: Contém informação que são iniciados separadamente do sistema de arquivos
-	- Super block: Contém informação necessária sobre o sistema de arquivos
+	- Boot blocks: Contém informação que são iniciados separadamente do sistema de arquivos.
+	- Super block: Contém informação necessária sobre o sistema de arquivos.
 	- Cylinder groups: Tem a função de agirem como uma partição ou mini-partição.
 
 * _Ambiente da aplicação_:
